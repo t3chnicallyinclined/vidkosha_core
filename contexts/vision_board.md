@@ -2,6 +2,7 @@
 
 A contributor-facing map of active and planned workstreams. Each row links to a context file that agents and humans should read before touching code.
 Nervos CKB anchoring/indexing/operator registry are core rails; the `*_lite` briefs are entry points, but assume CKB as the default path.
+CKB Anchoring Lite includes an optional Axon/Godwoken fast path with periodic CKB checkpoints plus a pub/sub note (front desk publishes anchor/context intents; operators subscribe/ack).
 
 Strategy/architecture live in `contexts/context.md`; this board tracks execution workstreams.
 

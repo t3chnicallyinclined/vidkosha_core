@@ -44,10 +44,11 @@ An outline of the Vidkosha Cortex journey. Economic, token, and DAO details are 
 - Decide on serialization format for RAG payloads ahead of Phase 2.
 - Map out testing approach (integration vs. snapshot) for multi-agent flows.
 - Compare single-node Docker/Compose vs. managed Kubernetes for orchestrator + vLLM + HelixDB.
-- Prototype an event bus for agent pub/sub signals; document which events matter.
+- Prototype an event bus for agent pub/sub signals; document which events matter, including anchor/context intents (front desk publishes, operators subscribe/ack).
 - Keep `contexts/helix_schema.md` in lockstep with actual Helix namespaces.
 - Mirror Vision Board into Helix (planning graph sync): implement `planning-sync` to upsert `vision_board`/`workstream`/`context_doc` nodes per `contexts/planning_graph.md`.
 - Developer onboarding guided session (`cargo run -- --dev`): front-desk flow that checks env/ports, points to must-reads, and offers a starter workstream choice.
+- Document optional Axon/Godwoken fast-anchor path with periodic CKB checkpoints for finality (public-safe note; feature-flagged).
 
 ## Operating Rhythm
 - **Weekly checkpoint:** Update this roadmap plus the changelog with progress, blockers, and confidence level.

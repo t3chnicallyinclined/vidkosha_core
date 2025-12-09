@@ -24,6 +24,7 @@ Plan to anchor Vidkosha Cortex runtime events (usage/payout receipts) to CKB wit
 - Hashing: deterministic hash over sorted fields; store hash + batch_id + timestamp.
 - Submission: simple CKB transaction via CLI using a test key (local devnet or shared testnet).
 - Confirmation: poll for inclusion; emit a local proof file with tx hash and block number.
+- Optional fast path: Axon/Godwoken for low-latency anchoring, with periodic checkpoints of the same batch hash to CKB L1 for finality (feature-flagged).
 
 ## 4. Suggested Implementation Steps
 1. Define a minimal anchor payload struct and hash function (payout batch hash; optional Axon checkpoint hash; optional Fiber channel receipt hash).
@@ -40,3 +41,4 @@ Plan to anchor Vidkosha Cortex runtime events (usage/payout receipts) to CKB wit
 ## Notes
 - Use test keys/endpoints only; never include secret keys or mainnet RPCs.
 - Teams can swap configs/keys and richer payloads in their own pack.
+- Context mesh (preview): front desk publishes anchor/context intents on the event bus; operator nodes subscribe/ack. Keep payloads minimal and public-safe; full design to follow.
