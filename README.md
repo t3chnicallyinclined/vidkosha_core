@@ -60,11 +60,6 @@ New contributor branch routine:
 - Rebase on staging regularly; keep the branch short-lived.
 - Push `feature/<slug>` and open a PR into `staging`; CI + owner approval gate the merge.
 
-### Visibility
-
-- This branch is sanitized for open sharing; keep strategy, pricing, and operator economics outside the repo.
-- If you maintain an external pack, apply it out-of-repo after pulling this branch; do not reference unpublished endpoints, keys, or internal dates here.
-
 ## Node Operator bootstrap kit (fast start)
 
 If you are bringing up a Helix node for the first time, skim `scripts/node-operator/README.md` for a compose file, env template, and smoke/seed scripts tailored to operators. When defaults change (LLM/embeddings model, vector dim, Helix write query, seed corpus), update the kit’s `.env.example`, `docker-compose.yml`, and `ingest_seed.sh`, then log it in `contexts/changelog.md` and mirror the delta here.
@@ -74,7 +69,7 @@ If you are bringing up a Helix node for the first time, skim `scripts/node-opera
 
 - Python 3.12 virtual environment with dependencies from `requirements.lock` installed (no bundled wheels required).
 - GPU with ~24 GB VRAM (tested on RTX 3090) and CUDA drivers compatible with vLLM 0.12.0.
-- Hugging Face CLI logged into an account that can pull `meta-llama/Llama-3.1-8B-Instruct`.
+- Hugging Face CLI logged into an account that can pull `meta-llama/Llama-3.1-8B-Instruct`. (or any model for development/testing)
 - Rust toolchain installed via `rustup` (`cargo`, `rustfmt`, `clippy`).
 
 ## 2. Environment variables
@@ -190,7 +185,7 @@ Example `.nervos_index_config.json`:
 
 ```json
 {
-  "allow_extensions": ["rs", "md", "toml", "json", "csv", "jsonl"],
+  "allow_extensions": ["rs", "mdx", "hql", "hx", "md", "toml", "json", "csv", "jsonl"],
   "deny_extensions": ["bin", "exe"],
   "max_file_bytes": 800000,
   "binary_threshold": 0.25,
@@ -241,7 +236,7 @@ Vidkosha Cortex is designed to evolve into a decentralized intelligence network 
 ### Key Concepts
 
 - **Operator-Owned Agents:** Node operators can host their own specialist agents with their own context files, creating personal RAG shards ("micro-brains") that attach to the Mega Brain.
-- **Reputation System:** Operators earn reputation (not money) based on response quality, uptime, RAG contributions, and community feedback. Higher reputation unlocks priority routing and governance influence.
+- **Reputation System:** Operators earn rewards based on response quality, uptime, RAG contributions, and community feedback. Higher reputation unlocks priority routing and governance influence.
 - **Query Routing:** The orchestrator routes specialized queries to the highest-reputation matching operator nodes, creating natural expertise zones across the network.
 
 ### Documentation

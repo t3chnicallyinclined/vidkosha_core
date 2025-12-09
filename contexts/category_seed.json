@@ -1,0 +1,3008 @@
+[
+  {
+    "name": "_instructions",
+    "description": "Seeding guide: run scripts/seed_general_topics.sh (optionally pass a JSON path); requires HELIX_BASE_URL and optional HELIX_API_TOKEN; entries with status=\"skip\" are ignored; delete stray topics with DeleteTopic; re-run ListTopics to verify.",
+    "parent": "meta",
+    "status": "skip"
+  },
+  {
+    "name": "arts.foundations",
+    "description": "Arts: Foundations",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.history",
+    "description": "Arts: History",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.core_concepts",
+    "description": "Arts: Core Concepts",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.methods",
+    "description": "Arts: Methods",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.theory",
+    "description": "Arts: Theory",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.models",
+    "description": "Arts: Models",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.applications",
+    "description": "Arts: Applications",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.trends",
+    "description": "Arts: Trends",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.standards",
+    "description": "Arts: Standards",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.best_practices",
+    "description": "Arts: Best Practices",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.case_studies",
+    "description": "Arts: Case Studies",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.data",
+    "description": "Arts: Data",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.measurement",
+    "description": "Arts: Measurement",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.analysis",
+    "description": "Arts: Analysis",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.design",
+    "description": "Arts: Design",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.innovation",
+    "description": "Arts: Innovation",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.policy",
+    "description": "Arts: Policy",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.ethics",
+    "description": "Arts: Ethics",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.risks",
+    "description": "Arts: Risks",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.strategy",
+    "description": "Arts: Strategy",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.management",
+    "description": "Arts: Management",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.education",
+    "description": "Arts: Education",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.careers",
+    "description": "Arts: Careers",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.tools",
+    "description": "Arts: Tools",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.systems",
+    "description": "Arts: Systems",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.processes",
+    "description": "Arts: Processes",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.evaluation",
+    "description": "Arts: Evaluation",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.regulation",
+    "description": "Arts: Regulation",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.forecasts",
+    "description": "Arts: Forecasts",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.research_frontiers",
+    "description": "Arts: Research Frontiers",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.benchmarks",
+    "description": "Arts: Benchmarks",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.workflows",
+    "description": "Arts: Workflows",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.user_experience",
+    "description": "Arts: User Experience",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.performance",
+    "description": "Arts: Performance",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.scalability",
+    "description": "Arts: Scalability",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.security",
+    "description": "Arts: Security",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.reliability",
+    "description": "Arts: Reliability",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.quality",
+    "description": "Arts: Quality",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.interoperability",
+    "description": "Arts: Interoperability",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "arts.sustainability",
+    "description": "Arts: Sustainability",
+    "parent": "arts",
+    "status": "active"
+  },
+  {
+    "name": "history.foundations",
+    "description": "History: Foundations",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.history",
+    "description": "History: History",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.core_concepts",
+    "description": "History: Core Concepts",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.methods",
+    "description": "History: Methods",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.theory",
+    "description": "History: Theory",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.models",
+    "description": "History: Models",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.applications",
+    "description": "History: Applications",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.trends",
+    "description": "History: Trends",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.standards",
+    "description": "History: Standards",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.best_practices",
+    "description": "History: Best Practices",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.case_studies",
+    "description": "History: Case Studies",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.data",
+    "description": "History: Data",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.measurement",
+    "description": "History: Measurement",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.analysis",
+    "description": "History: Analysis",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.design",
+    "description": "History: Design",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.innovation",
+    "description": "History: Innovation",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.policy",
+    "description": "History: Policy",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.ethics",
+    "description": "History: Ethics",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.risks",
+    "description": "History: Risks",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.strategy",
+    "description": "History: Strategy",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.management",
+    "description": "History: Management",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.education",
+    "description": "History: Education",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.careers",
+    "description": "History: Careers",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.tools",
+    "description": "History: Tools",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.systems",
+    "description": "History: Systems",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.processes",
+    "description": "History: Processes",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.evaluation",
+    "description": "History: Evaluation",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.regulation",
+    "description": "History: Regulation",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.forecasts",
+    "description": "History: Forecasts",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.research_frontiers",
+    "description": "History: Research Frontiers",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.benchmarks",
+    "description": "History: Benchmarks",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.workflows",
+    "description": "History: Workflows",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.user_experience",
+    "description": "History: User Experience",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.performance",
+    "description": "History: Performance",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.scalability",
+    "description": "History: Scalability",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.security",
+    "description": "History: Security",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.reliability",
+    "description": "History: Reliability",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.quality",
+    "description": "History: Quality",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.interoperability",
+    "description": "History: Interoperability",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "history.sustainability",
+    "description": "History: Sustainability",
+    "parent": "history",
+    "status": "active"
+  },
+  {
+    "name": "geography.foundations",
+    "description": "Geography: Foundations",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.history",
+    "description": "Geography: History",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.core_concepts",
+    "description": "Geography: Core Concepts",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.methods",
+    "description": "Geography: Methods",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.theory",
+    "description": "Geography: Theory",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.models",
+    "description": "Geography: Models",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.applications",
+    "description": "Geography: Applications",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.trends",
+    "description": "Geography: Trends",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.standards",
+    "description": "Geography: Standards",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.best_practices",
+    "description": "Geography: Best Practices",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.case_studies",
+    "description": "Geography: Case Studies",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.data",
+    "description": "Geography: Data",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.measurement",
+    "description": "Geography: Measurement",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.analysis",
+    "description": "Geography: Analysis",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.design",
+    "description": "Geography: Design",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.innovation",
+    "description": "Geography: Innovation",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.policy",
+    "description": "Geography: Policy",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.ethics",
+    "description": "Geography: Ethics",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.risks",
+    "description": "Geography: Risks",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.strategy",
+    "description": "Geography: Strategy",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.management",
+    "description": "Geography: Management",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.education",
+    "description": "Geography: Education",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.careers",
+    "description": "Geography: Careers",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.tools",
+    "description": "Geography: Tools",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.systems",
+    "description": "Geography: Systems",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.processes",
+    "description": "Geography: Processes",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.evaluation",
+    "description": "Geography: Evaluation",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.regulation",
+    "description": "Geography: Regulation",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.forecasts",
+    "description": "Geography: Forecasts",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.research_frontiers",
+    "description": "Geography: Research Frontiers",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.benchmarks",
+    "description": "Geography: Benchmarks",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.workflows",
+    "description": "Geography: Workflows",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.user_experience",
+    "description": "Geography: User Experience",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.performance",
+    "description": "Geography: Performance",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.scalability",
+    "description": "Geography: Scalability",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.security",
+    "description": "Geography: Security",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.reliability",
+    "description": "Geography: Reliability",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.quality",
+    "description": "Geography: Quality",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.interoperability",
+    "description": "Geography: Interoperability",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "geography.sustainability",
+    "description": "Geography: Sustainability",
+    "parent": "geography",
+    "status": "active"
+  },
+  {
+    "name": "culture.foundations",
+    "description": "Culture: Foundations",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.history",
+    "description": "Culture: History",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.core_concepts",
+    "description": "Culture: Core Concepts",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.methods",
+    "description": "Culture: Methods",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.theory",
+    "description": "Culture: Theory",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.models",
+    "description": "Culture: Models",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.applications",
+    "description": "Culture: Applications",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.trends",
+    "description": "Culture: Trends",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.standards",
+    "description": "Culture: Standards",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.best_practices",
+    "description": "Culture: Best Practices",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.case_studies",
+    "description": "Culture: Case Studies",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.data",
+    "description": "Culture: Data",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.measurement",
+    "description": "Culture: Measurement",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.analysis",
+    "description": "Culture: Analysis",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.design",
+    "description": "Culture: Design",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.innovation",
+    "description": "Culture: Innovation",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.policy",
+    "description": "Culture: Policy",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.ethics",
+    "description": "Culture: Ethics",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.risks",
+    "description": "Culture: Risks",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.strategy",
+    "description": "Culture: Strategy",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.management",
+    "description": "Culture: Management",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.education",
+    "description": "Culture: Education",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.careers",
+    "description": "Culture: Careers",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.tools",
+    "description": "Culture: Tools",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.systems",
+    "description": "Culture: Systems",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.processes",
+    "description": "Culture: Processes",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.evaluation",
+    "description": "Culture: Evaluation",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.regulation",
+    "description": "Culture: Regulation",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.forecasts",
+    "description": "Culture: Forecasts",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.research_frontiers",
+    "description": "Culture: Research Frontiers",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.benchmarks",
+    "description": "Culture: Benchmarks",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.workflows",
+    "description": "Culture: Workflows",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.user_experience",
+    "description": "Culture: User Experience",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.performance",
+    "description": "Culture: Performance",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.scalability",
+    "description": "Culture: Scalability",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.security",
+    "description": "Culture: Security",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.reliability",
+    "description": "Culture: Reliability",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.quality",
+    "description": "Culture: Quality",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.interoperability",
+    "description": "Culture: Interoperability",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "culture.sustainability",
+    "description": "Culture: Sustainability",
+    "parent": "culture",
+    "status": "active"
+  },
+  {
+    "name": "politics.foundations",
+    "description": "Politics: Foundations",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.history",
+    "description": "Politics: History",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.core_concepts",
+    "description": "Politics: Core Concepts",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.methods",
+    "description": "Politics: Methods",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.theory",
+    "description": "Politics: Theory",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.models",
+    "description": "Politics: Models",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.applications",
+    "description": "Politics: Applications",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.trends",
+    "description": "Politics: Trends",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.standards",
+    "description": "Politics: Standards",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.best_practices",
+    "description": "Politics: Best Practices",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.case_studies",
+    "description": "Politics: Case Studies",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.data",
+    "description": "Politics: Data",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.measurement",
+    "description": "Politics: Measurement",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.analysis",
+    "description": "Politics: Analysis",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.design",
+    "description": "Politics: Design",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.innovation",
+    "description": "Politics: Innovation",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.policy",
+    "description": "Politics: Policy",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.ethics",
+    "description": "Politics: Ethics",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.risks",
+    "description": "Politics: Risks",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.strategy",
+    "description": "Politics: Strategy",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.management",
+    "description": "Politics: Management",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.education",
+    "description": "Politics: Education",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.careers",
+    "description": "Politics: Careers",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.tools",
+    "description": "Politics: Tools",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.systems",
+    "description": "Politics: Systems",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.processes",
+    "description": "Politics: Processes",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.evaluation",
+    "description": "Politics: Evaluation",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.regulation",
+    "description": "Politics: Regulation",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.forecasts",
+    "description": "Politics: Forecasts",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.research_frontiers",
+    "description": "Politics: Research Frontiers",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.benchmarks",
+    "description": "Politics: Benchmarks",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.workflows",
+    "description": "Politics: Workflows",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.user_experience",
+    "description": "Politics: User Experience",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.performance",
+    "description": "Politics: Performance",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.scalability",
+    "description": "Politics: Scalability",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.security",
+    "description": "Politics: Security",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.reliability",
+    "description": "Politics: Reliability",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.quality",
+    "description": "Politics: Quality",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.interoperability",
+    "description": "Politics: Interoperability",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "politics.sustainability",
+    "description": "Politics: Sustainability",
+    "parent": "politics",
+    "status": "active"
+  },
+  {
+    "name": "economics.foundations",
+    "description": "Economics: Foundations",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.history",
+    "description": "Economics: History",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.core_concepts",
+    "description": "Economics: Core Concepts",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.methods",
+    "description": "Economics: Methods",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.theory",
+    "description": "Economics: Theory",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.models",
+    "description": "Economics: Models",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.applications",
+    "description": "Economics: Applications",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.trends",
+    "description": "Economics: Trends",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.standards",
+    "description": "Economics: Standards",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.best_practices",
+    "description": "Economics: Best Practices",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.case_studies",
+    "description": "Economics: Case Studies",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.data",
+    "description": "Economics: Data",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.measurement",
+    "description": "Economics: Measurement",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.analysis",
+    "description": "Economics: Analysis",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.design",
+    "description": "Economics: Design",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.innovation",
+    "description": "Economics: Innovation",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.policy",
+    "description": "Economics: Policy",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.ethics",
+    "description": "Economics: Ethics",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.risks",
+    "description": "Economics: Risks",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.strategy",
+    "description": "Economics: Strategy",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.management",
+    "description": "Economics: Management",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.education",
+    "description": "Economics: Education",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.careers",
+    "description": "Economics: Careers",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.tools",
+    "description": "Economics: Tools",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.systems",
+    "description": "Economics: Systems",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.processes",
+    "description": "Economics: Processes",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.evaluation",
+    "description": "Economics: Evaluation",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.regulation",
+    "description": "Economics: Regulation",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.forecasts",
+    "description": "Economics: Forecasts",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.research_frontiers",
+    "description": "Economics: Research Frontiers",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.benchmarks",
+    "description": "Economics: Benchmarks",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.workflows",
+    "description": "Economics: Workflows",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.user_experience",
+    "description": "Economics: User Experience",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.performance",
+    "description": "Economics: Performance",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.scalability",
+    "description": "Economics: Scalability",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.security",
+    "description": "Economics: Security",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.reliability",
+    "description": "Economics: Reliability",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.quality",
+    "description": "Economics: Quality",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.interoperability",
+    "description": "Economics: Interoperability",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "economics.sustainability",
+    "description": "Economics: Sustainability",
+    "parent": "economics",
+    "status": "active"
+  },
+  {
+    "name": "business.foundations",
+    "description": "Business: Foundations",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.history",
+    "description": "Business: History",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.core_concepts",
+    "description": "Business: Core Concepts",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.methods",
+    "description": "Business: Methods",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.theory",
+    "description": "Business: Theory",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.models",
+    "description": "Business: Models",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.applications",
+    "description": "Business: Applications",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.trends",
+    "description": "Business: Trends",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.standards",
+    "description": "Business: Standards",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.best_practices",
+    "description": "Business: Best Practices",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.case_studies",
+    "description": "Business: Case Studies",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.data",
+    "description": "Business: Data",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.measurement",
+    "description": "Business: Measurement",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.analysis",
+    "description": "Business: Analysis",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.design",
+    "description": "Business: Design",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.innovation",
+    "description": "Business: Innovation",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.policy",
+    "description": "Business: Policy",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.ethics",
+    "description": "Business: Ethics",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.risks",
+    "description": "Business: Risks",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.strategy",
+    "description": "Business: Strategy",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.management",
+    "description": "Business: Management",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.education",
+    "description": "Business: Education",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.careers",
+    "description": "Business: Careers",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.tools",
+    "description": "Business: Tools",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.systems",
+    "description": "Business: Systems",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.processes",
+    "description": "Business: Processes",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.evaluation",
+    "description": "Business: Evaluation",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.regulation",
+    "description": "Business: Regulation",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.forecasts",
+    "description": "Business: Forecasts",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.research_frontiers",
+    "description": "Business: Research Frontiers",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.benchmarks",
+    "description": "Business: Benchmarks",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.workflows",
+    "description": "Business: Workflows",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.user_experience",
+    "description": "Business: User Experience",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.performance",
+    "description": "Business: Performance",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.scalability",
+    "description": "Business: Scalability",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.security",
+    "description": "Business: Security",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.reliability",
+    "description": "Business: Reliability",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.quality",
+    "description": "Business: Quality",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.interoperability",
+    "description": "Business: Interoperability",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "business.sustainability",
+    "description": "Business: Sustainability",
+    "parent": "business",
+    "status": "active"
+  },
+  {
+    "name": "finance.foundations",
+    "description": "Finance: Foundations",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.history",
+    "description": "Finance: History",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.core_concepts",
+    "description": "Finance: Core Concepts",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.methods",
+    "description": "Finance: Methods",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.theory",
+    "description": "Finance: Theory",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.models",
+    "description": "Finance: Models",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.applications",
+    "description": "Finance: Applications",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.trends",
+    "description": "Finance: Trends",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.standards",
+    "description": "Finance: Standards",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.best_practices",
+    "description": "Finance: Best Practices",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.case_studies",
+    "description": "Finance: Case Studies",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.data",
+    "description": "Finance: Data",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.measurement",
+    "description": "Finance: Measurement",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.analysis",
+    "description": "Finance: Analysis",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.design",
+    "description": "Finance: Design",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.innovation",
+    "description": "Finance: Innovation",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.policy",
+    "description": "Finance: Policy",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.ethics",
+    "description": "Finance: Ethics",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.risks",
+    "description": "Finance: Risks",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.strategy",
+    "description": "Finance: Strategy",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.management",
+    "description": "Finance: Management",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.education",
+    "description": "Finance: Education",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.careers",
+    "description": "Finance: Careers",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.tools",
+    "description": "Finance: Tools",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.systems",
+    "description": "Finance: Systems",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.processes",
+    "description": "Finance: Processes",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.evaluation",
+    "description": "Finance: Evaluation",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.regulation",
+    "description": "Finance: Regulation",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.forecasts",
+    "description": "Finance: Forecasts",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.research_frontiers",
+    "description": "Finance: Research Frontiers",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.benchmarks",
+    "description": "Finance: Benchmarks",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.workflows",
+    "description": "Finance: Workflows",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.user_experience",
+    "description": "Finance: User Experience",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.performance",
+    "description": "Finance: Performance",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.scalability",
+    "description": "Finance: Scalability",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.security",
+    "description": "Finance: Security",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.reliability",
+    "description": "Finance: Reliability",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.quality",
+    "description": "Finance: Quality",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.interoperability",
+    "description": "Finance: Interoperability",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "finance.sustainability",
+    "description": "Finance: Sustainability",
+    "parent": "finance",
+    "status": "active"
+  },
+  {
+    "name": "law.foundations",
+    "description": "Law: Foundations",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.history",
+    "description": "Law: History",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.core_concepts",
+    "description": "Law: Core Concepts",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.methods",
+    "description": "Law: Methods",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.theory",
+    "description": "Law: Theory",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.models",
+    "description": "Law: Models",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.applications",
+    "description": "Law: Applications",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.trends",
+    "description": "Law: Trends",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.standards",
+    "description": "Law: Standards",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.best_practices",
+    "description": "Law: Best Practices",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.case_studies",
+    "description": "Law: Case Studies",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.data",
+    "description": "Law: Data",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.measurement",
+    "description": "Law: Measurement",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.analysis",
+    "description": "Law: Analysis",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.design",
+    "description": "Law: Design",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.innovation",
+    "description": "Law: Innovation",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.policy",
+    "description": "Law: Policy",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.ethics",
+    "description": "Law: Ethics",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.risks",
+    "description": "Law: Risks",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.strategy",
+    "description": "Law: Strategy",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.management",
+    "description": "Law: Management",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.education",
+    "description": "Law: Education",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.careers",
+    "description": "Law: Careers",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.tools",
+    "description": "Law: Tools",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.systems",
+    "description": "Law: Systems",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.processes",
+    "description": "Law: Processes",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.evaluation",
+    "description": "Law: Evaluation",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.regulation",
+    "description": "Law: Regulation",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.forecasts",
+    "description": "Law: Forecasts",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.research_frontiers",
+    "description": "Law: Research Frontiers",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.benchmarks",
+    "description": "Law: Benchmarks",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.workflows",
+    "description": "Law: Workflows",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.user_experience",
+    "description": "Law: User Experience",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.performance",
+    "description": "Law: Performance",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.scalability",
+    "description": "Law: Scalability",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.security",
+    "description": "Law: Security",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.reliability",
+    "description": "Law: Reliability",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.quality",
+    "description": "Law: Quality",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.interoperability",
+    "description": "Law: Interoperability",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "law.sustainability",
+    "description": "Law: Sustainability",
+    "parent": "law",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.foundations",
+    "description": "Philosophy: Foundations",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.history",
+    "description": "Philosophy: History",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.core_concepts",
+    "description": "Philosophy: Core Concepts",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.methods",
+    "description": "Philosophy: Methods",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.theory",
+    "description": "Philosophy: Theory",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.models",
+    "description": "Philosophy: Models",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.applications",
+    "description": "Philosophy: Applications",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.trends",
+    "description": "Philosophy: Trends",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.standards",
+    "description": "Philosophy: Standards",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.best_practices",
+    "description": "Philosophy: Best Practices",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.case_studies",
+    "description": "Philosophy: Case Studies",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.data",
+    "description": "Philosophy: Data",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.measurement",
+    "description": "Philosophy: Measurement",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.analysis",
+    "description": "Philosophy: Analysis",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.design",
+    "description": "Philosophy: Design",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.innovation",
+    "description": "Philosophy: Innovation",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.policy",
+    "description": "Philosophy: Policy",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.ethics",
+    "description": "Philosophy: Ethics",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.risks",
+    "description": "Philosophy: Risks",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.strategy",
+    "description": "Philosophy: Strategy",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.management",
+    "description": "Philosophy: Management",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.education",
+    "description": "Philosophy: Education",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.careers",
+    "description": "Philosophy: Careers",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.tools",
+    "description": "Philosophy: Tools",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.systems",
+    "description": "Philosophy: Systems",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.processes",
+    "description": "Philosophy: Processes",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.evaluation",
+    "description": "Philosophy: Evaluation",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.regulation",
+    "description": "Philosophy: Regulation",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.forecasts",
+    "description": "Philosophy: Forecasts",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.research_frontiers",
+    "description": "Philosophy: Research Frontiers",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.benchmarks",
+    "description": "Philosophy: Benchmarks",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.workflows",
+    "description": "Philosophy: Workflows",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.user_experience",
+    "description": "Philosophy: User Experience",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.performance",
+    "description": "Philosophy: Performance",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.scalability",
+    "description": "Philosophy: Scalability",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.security",
+    "description": "Philosophy: Security",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.reliability",
+    "description": "Philosophy: Reliability",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.quality",
+    "description": "Philosophy: Quality",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.interoperability",
+    "description": "Philosophy: Interoperability",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "philosophy.sustainability",
+    "description": "Philosophy: Sustainability",
+    "parent": "philosophy",
+    "status": "active"
+  },
+  {
+    "name": "ethics.foundations",
+    "description": "Ethics: Foundations",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.history",
+    "description": "Ethics: History",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.core_concepts",
+    "description": "Ethics: Core Concepts",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.methods",
+    "description": "Ethics: Methods",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.theory",
+    "description": "Ethics: Theory",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.models",
+    "description": "Ethics: Models",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.applications",
+    "description": "Ethics: Applications",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.trends",
+    "description": "Ethics: Trends",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.standards",
+    "description": "Ethics: Standards",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.best_practices",
+    "description": "Ethics: Best Practices",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.case_studies",
+    "description": "Ethics: Case Studies",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.data",
+    "description": "Ethics: Data",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.measurement",
+    "description": "Ethics: Measurement",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.analysis",
+    "description": "Ethics: Analysis",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.design",
+    "description": "Ethics: Design",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.innovation",
+    "description": "Ethics: Innovation",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.policy",
+    "description": "Ethics: Policy",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.ethics",
+    "description": "Ethics: Ethics",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.risks",
+    "description": "Ethics: Risks",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.strategy",
+    "description": "Ethics: Strategy",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.management",
+    "description": "Ethics: Management",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.education",
+    "description": "Ethics: Education",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.careers",
+    "description": "Ethics: Careers",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.tools",
+    "description": "Ethics: Tools",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.systems",
+    "description": "Ethics: Systems",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.processes",
+    "description": "Ethics: Processes",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.evaluation",
+    "description": "Ethics: Evaluation",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.regulation",
+    "description": "Ethics: Regulation",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.forecasts",
+    "description": "Ethics: Forecasts",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.research_frontiers",
+    "description": "Ethics: Research Frontiers",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.benchmarks",
+    "description": "Ethics: Benchmarks",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.workflows",
+    "description": "Ethics: Workflows",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.user_experience",
+    "description": "Ethics: User Experience",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.performance",
+    "description": "Ethics: Performance",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.scalability",
+    "description": "Ethics: Scalability",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.security",
+    "description": "Ethics: Security",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.reliability",
+    "description": "Ethics: Reliability",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.quality",
+    "description": "Ethics: Quality",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.interoperability",
+    "description": "Ethics: Interoperability",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "ethics.sustainability",
+    "description": "Ethics: Sustainability",
+    "parent": "ethics",
+    "status": "active"
+  },
+  {
+    "name": "religion.foundations",
+    "description": "Religion: Foundations",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.history",
+    "description": "Religion: History",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.core_concepts",
+    "description": "Religion: Core Concepts",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.methods",
+    "description": "Religion: Methods",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.theory",
+    "description": "Religion: Theory",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.models",
+    "description": "Religion: Models",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.applications",
+    "description": "Religion: Applications",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.trends",
+    "description": "Religion: Trends",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.standards",
+    "description": "Religion: Standards",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.best_practices",
+    "description": "Religion: Best Practices",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.case_studies",
+    "description": "Religion: Case Studies",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.data",
+    "description": "Religion: Data",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.measurement",
+    "description": "Religion: Measurement",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.analysis",
+    "description": "Religion: Analysis",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.design",
+    "description": "Religion: Design",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.innovation",
+    "description": "Religion: Innovation",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.policy",
+    "description": "Religion: Policy",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.ethics",
+    "description": "Religion: Ethics",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.risks",
+    "description": "Religion: Risks",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.strategy",
+    "description": "Religion: Strategy",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.management",
+    "description": "Religion: Management",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.education",
+    "description": "Religion: Education",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.careers",
+    "description": "Religion: Careers",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.tools",
+    "description": "Religion: Tools",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.systems",
+    "description": "Religion: Systems",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.processes",
+    "description": "Religion: Processes",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.evaluation",
+    "description": "Religion: Evaluation",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.regulation",
+    "description": "Religion: Regulation",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.forecasts",
+    "description": "Religion: Forecasts",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.research_frontiers",
+    "description": "Religion: Research Frontiers",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.benchmarks",
+    "description": "Religion: Benchmarks",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.workflows",
+    "description": "Religion: Workflows",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.user_experience",
+    "description": "Religion: User Experience",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.performance",
+    "description": "Religion: Performance",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.scalability",
+    "description": "Religion: Scalability",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.security",
+    "description": "Religion: Security",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.reliability",
+    "description": "Religion: Reliability",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.quality",
+    "description": "Religion: Quality",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.interoperability",
+    "description": "Religion: Interoperability",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "religion.sustainability",
+    "description": "Religion: Sustainability",
+    "parent": "religion",
+    "status": "active"
+  },
+  {
+    "name": "psychology.foundations",
+    "description": "Psychology: Foundations",
+    "parent": "psychology",
+    "status": "active"
+  },
+  {
+    "name": "psychology.history",
+    "description": "Psychology: History",
+    "parent": "psychology",
+    "status": "active"
+  },
+  {
+    "name": "psychology.core_concepts",
+    "description": "Psychology: Core Concepts",
+    "parent": "psychology",
+    "status": "active"
+  },
+  {
+    "name": "psychology.methods",
+    "description": "Psychology: Methods",
+    "parent": "psychology",
+    "status": "active"
+  },
+  {
+    "name": "psychology.theory",
+    "description": "Psychology: Theory",
+    "parent": "psychology",
+    "status": "active"
+  },
+  {
+    "name": "psychology.models",
+    "description": "Psychology: Models",
+    "parent": "psychology",
+    "status": "active"
+  },
+  {
+    "name": "psychology.applications",
+    "description": "Psychology: Applications",
+    "parent": "psychology",
+    "status": "active"
+  },
+  {
+    "name": "psychology.trends",
+    "description": "Psychology: Trends",
+    "parent": "psychology",
+    "status": "active"
+  },
+  {
+    "name": "psychology.standards",
+    "description": "Psychology: Standards",
+    "parent": "psychology",
+    "status": "active"
+  },
+  {
+    "name": "psychology.best_practices",
+    "description": "Psychology: Best Practices",
+    "parent": "psychology",
+    "status": "active"
+  },
+  {
+    "name": "psychology.case_studies",
+    "description": "Psychology: Case Studies",
+    "parent": "psychology",
+    "status": "active"
+  },
+  {
+    "name": "psychology.data",
+    "description": "Psychology: Data",
+    "parent": "psychology",
+    "status": "active"
+  },
+  {
+    "name": "psychology.measurement",
+    "description": "Psychology: Measurement",
+    "parent": "psychology",
+    "status": "active"
+  },
+  {
+    "name": "psychology.analysis",
+    "description": "Psychology: Analysis",
+    "parent": "psychology",
+    "status": "active"
+  },
+  {
+    "name": "psychology.design",
+    "description": "Psychology: Design",
+    "parent": "psychology",
+    "status": "active"
+  },
+  {
+    "name": "psychology.innovation",
+    "description": "Psychology: Innovation",
+    "parent": "psychology",
+    "status": "active"
+  },
+  {
+    "name": "psychology.policy",
+    "description": "Psychology: Policy",
+    "parent": "psychology",
+    "status": "active"
+  },
+  {
+    "name": "psychology.ethics",
+    "description": "Psychology: Ethics",
+    "parent": "psychology",
+    "status": "active"
+  },
+  {
+    "name": "psychology.risks",
+    "description": "Psychology: Risks",
+    "parent": "psychology",
+    "status": "active"
+  },
+  {
+    "name": "psychology.strategy",
+    "description": "Psychology: Strategy",
+    "parent": "psychology",
+    "status": "active"
+  }
+]
