@@ -8,8 +8,12 @@ Welcome! This repo stays off-chain and Rust-first by default. Please keep change
 - Run `cargo fmt` and `cargo clippy --all-targets --all-features` before/after `cargo build`/`cargo run`.
 - Prefer incremental PRs; update `contexts/changelog.md` when landing meaningful changes.
 - Follow SemVer: only bump `MAJOR` for breaking CLI/Helix contract changes, `MINOR` for backward-compatible features/query additions, and `PATCH` for fixes/docs. Keep `Cargo.toml` as the source of truth and tag releases on `main` (e.g., `vX.Y.Z`).
-- Branches: develop on `feature/*`, merge to `staging` after review/CI, then fast-forward `staging` → `main` for releases. Protect `staging`/`main` with required checks.
-- Start every feature from staging: `git switch staging && git pull`, then `git switch -c feature/<slug>`; open PRs into `staging` (owner/Code Owner approval required).
+- Branches: develop on `feature/*`, merge to `staging` via PR only after review/CI, then fast-forward `staging` → `main` for releases. `staging`/`main` are protected: no direct pushes; required checks must pass.
+- Start every feature from staging: `git switch staging && git pull`, then `git switch -c feature/<slug>`; open PRs into `staging` (owner/Code Owner approval required before merge).
+
+## Merge Policy
+- All changes go through PRs into `staging`; `main` is updated only by fast-forward from `staging` after checks pass.
+- Direct pushes to `staging` and `main` are blocked; at least one owner/Code Owner approval is required on every PR.
 
 ## Expanding Ideas
 - You are encouraged to extend or adjust designs in the workstream docs. Document the **what/why**, call out assumptions, and mark anything risky.
