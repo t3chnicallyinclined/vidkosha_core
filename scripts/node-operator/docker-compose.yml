@@ -1,0 +1,71 @@
+version: "3.9"
+
+networks:
+  fabric:
+    driver: bridge
+
+volumes:
+  helix-data:
+
+services:
+  embeddings:
+    image: ghcr.io/huggingface/text-embeddings-inference:latest
+    container_name: vidkosha-embeddings
+    environment:
+      MODEL_ID: BAAI/bge-m3
+      NUM_WORKERS: 2
+      MAX_INPUT_LENGTH: 512
+    ports:
+      - "9000:80"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fs http://localhost/health || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+    networks:
+      - fabric
+
+  # Optional: enable with `--profile helix` once you have a Helix image/tag available.
+  helix:
+    profiles: ["helix"]
+    image: ghcr.io/helixdb/helix:latest  # replace with the tag you trust or build locally
+    container_name: vidkosha-helix
+    environment:
+      HELIX_PORT: 6969
+      HELIX_GRAPH_NAMESPACE: vidkosha_cortex
+      HELIX_HTTP_TIMEOUT_MS: 10000
+      OPENAI_BASE_URL: http://embeddings:80/v1
+      OPENAI_API_KEY: ${RAG_EMBEDDING_API_KEY:-sk-local}
+    ports:
+      - "6969:6969"
+    volumes:
+      - helix-data:/data
+    depends_on:
+      embeddings:
+        condition: service_healthy
+    networks:
+      - fabric
+
+  # Optional: enable with `--profile llm` if you want to host the chat LLM locally (GPU recommended).
+  llm:
+    profiles: ["llm"]
+    image: ghcr.io/vllm/vllm-openai:latest
+    container_name: vidkosha-llm
+    environment:
+      HF_TOKEN: ${HF_TOKEN:-}
+    command: >
+      --model meta-llama/Meta-Llama-3-8B-Instruct
+      --served-model-name llama3-local
+      --max-model-len 8192
+      --tensor-parallel-size 1
+      --dtype bfloat16
+      --port 8000
+    ports:
+      - "8000:8000"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+    networks:
+      - fabric
