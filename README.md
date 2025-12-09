@@ -1,7 +1,7 @@
 # Vidkosha Cortex — powered by Nervos CKB
 
-Sovereign, human-first AI OS: Rust agents that remember, route, and build with you; Helix fabric for memory; Nervos CKB is the default rail for anchoring, provenance, and payouts (local dev can run without posting on-chain).
-Stack highlights: Rust + Helix AI Fabric (vector graph, provenance-ready), Nervos CKB rail for anchoring/provenance/payouts, vLLM/OpenAI API.
+Sovereign, human-first AI OS: Rust agents that remember, route, and build with you; Helix fabric for memory; Nervos CKB is the default rail for anchoring/provenance, and node operators can host embedding, storage, or inference specialists to earn reputation- and quality-based rewards.
+Stack highlights: Rust + Helix AI Fabric (vector graph, provenance-ready), Nervos CKB rail for anchoring/provenance and reputation/quality-based operator rewards across embedding/storage/inference, vLLM/OpenAI API.
 
 Minimal notes for bringing the local stack online and exercising the CLI agent loop.
 
